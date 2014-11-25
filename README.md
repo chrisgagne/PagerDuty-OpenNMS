@@ -1,10 +1,10 @@
 PagerDuty-OpenNMS
-========
+=======
 
 PagerDuty-OpenNMS is a script run by OpenNMS that calls the PagerDuty Integration API with curl.
 
 Configuration
-======
+=====
 
 The configuration itself is not overly complex: 
 
@@ -21,7 +21,7 @@ The configuration itself is not overly complex:
 11. Click “Finish”
 
 Adding OpenNMS as a service in PagerDuty
-======
+=====
 
 1. Click "Services" in the menu bar.
 2. Click "+ Add New Service"
@@ -30,6 +30,6 @@ Adding OpenNMS as a service in PagerDuty
  - **Note**: When using this script, do not specify OpenNMS under "Select a Tool." This will create an email-based integration--and thus fail to generate a Service API Key--because neither PagerDuty nor OpenNMS officially support this script.
 
 Credit and License
-======
+=====
 
-This script was written by and provided courtesy of [Kevin Sonney](http://about.me/ksonney) ([sonny](https://github.com/sonny)) and is ©2014, Kevin Sonney. It is licensed under the AGPLv3.
+This script was written by and provided courtesy of [Kevin Sonney](http://about.me/ksonney) ([ksonney](https://github.com/ksonney)) and is ©2014, Kevin Sonney. It is licensed under the AGPLv3.
